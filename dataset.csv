@@ -1,0 +1,350 @@
+acronym,full_form,category,level
+CPU,Central Processing Unit,Computer Architecture,Basic
+GPU,Graphics Processing Unit,Computer Architecture,Basic
+RAM,Random Access Memory,Computer Architecture,Basic
+ROM,Read Only Memory,Computer Architecture,Basic
+ALU,Arithmetic Logic Unit,Computer Architecture,Basic
+BIOS,Basic Input Output System,Computer Architecture,Basic
+UEFI,Unified Extensible Firmware Interface,Computer Architecture,Intermediate
+ISA,Instruction Set Architecture,Computer Architecture,Intermediate
+RISC,Reduced Instruction Set Computer,Computer Architecture,Intermediate
+CISC,Complex Instruction Set Computer,Computer Architecture,Intermediate
+DMA,Direct Memory Access,Computer Architecture,Intermediate
+MMU,Memory Management Unit,Computer Architecture,Intermediate
+TLB,Translation Lookaside Buffer,Computer Architecture,Advanced
+SIMD,Single Instruction Multiple Data,Computer Architecture,Advanced
+MIMD,Multiple Instruction Multiple Data,Computer Architecture,Advanced
+SMP,Symmetric Multiprocessing,Computer Architecture,Intermediate
+NUMA,Non Uniform Memory Access,Computer Architecture,Advanced
+SoC,System on Chip,Computer Architecture,Intermediate
+FPGA,Field Programmable Gate Array,Digital Electronics,Intermediate
+ASIC,Application Specific Integrated Circuit,Digital Electronics,Advanced
+VLSI,Very Large Scale Integration,Digital Electronics,Advanced
+IC,Integrated Circuit,Electronics,Basic
+PCB,Printed Circuit Board,Electronics,Basic
+AC,Alternating Current,Electrical Engineering,Basic
+DC,Direct Current,Electrical Engineering,Basic
+EMF,Electromotive Force,Electrical Engineering,Basic
+KCL,Kirchhoff Current Law,Electrical Engineering,Basic
+KVL,Kirchhoff Voltage Law,Electrical Engineering,Basic
+RLC,Resistor Inductor Capacitor,Electrical Engineering,Intermediate
+MOSFET,Metal Oxide Semiconductor Field Effect Transistor,Electronics,Intermediate
+BJT,Bipolar Junction Transistor,Electronics,Intermediate
+FET,Field Effect Transistor,Electronics,Intermediate
+LED,Light Emitting Diode,Electronics,Basic
+LCD,Liquid Crystal Display,Electronics,Basic
+OLED,Organic Light Emitting Diode,Electronics,Intermediate
+ADC,Analog to Digital Converter,Electronics,Intermediate
+DAC,Digital to Analog Converter,Electronics,Intermediate
+PWM,Pulse Width Modulation,Electronics,Intermediate
+OOP,Object Oriented Programming,Programming,Basic
+IDE,Integrated Development Environment,Programming,Basic
+SDK,Software Development Kit,Programming,Intermediate
+API,Application Programming Interface,Software Engineering,Intermediate
+CLI,Command Line Interface,Programming,Basic
+GUI,Graphical User Interface,Programming,Basic
+REPL,Read Evaluate Print Loop,Programming,Intermediate
+JIT,Just In Time Compilation,Programming,Advanced
+AOT,Ahead Of Time Compilation,Programming,Advanced
+JVM,Java Virtual Machine,Programming,Intermediate
+JRE,Java Runtime Environment,Programming,Basic
+JDK,Java Development Kit,Programming,Basic
+AST,Abstract Syntax Tree,Programming Languages,Advanced
+CFG,Control Flow Graph,Programming Languages,Advanced
+IR,Intermediate Representation,Programming Languages,Advanced
+DSA,Data Structures and Algorithms,Computer Science,Basic
+ADT,Abstract Data Type,Data Structures,Basic
+BST,Binary Search Tree,Data Structures,Intermediate
+AVL,Adelson Velsky and Landis Tree,Data Structures,Advanced
+BFS,Breadth First Search,Algorithms,Basic
+DFS,Depth First Search,Algorithms,Basic
+DP,Dynamic Programming,Algorithms,Intermediate
+LCS,Longest Common Subsequence,Algorithms,Intermediate
+LIS,Longest Increasing Subsequence,Algorithms,Intermediate
+NGE,Next Greater Element,Algorithms,Basic
+MST,Minimum Spanning Tree,Algorithms,Intermediate
+DAG,Directed Acyclic Graph,Algorithms,Intermediate
+FIFO,First In First Out,Data Structures,Basic
+LIFO,Last In First Out,Data Structures,Basic
+SQL,Structured Query Language,Database,Basic
+DBMS,Database Management System,Database,Basic
+RDBMS,Relational Database Management System,Database,Basic
+DBA,Database Administrator,Database,Intermediate
+DDL,Data Definition Language,Database,Basic
+DML,Data Manipulation Language,Database,Basic
+DCL,Data Control Language,Database,Intermediate
+TCL,Transaction Control Language,Database,Intermediate
+ERD,Entity Relationship Diagram,Database,Basic
+ACID,Atomicity Consistency Isolation Durability,Database,Intermediate
+OLTP,Online Transaction Processing,Database,Intermediate
+OLAP,Online Analytical Processing,Data Warehousing,Intermediate
+ETL,Extract Transform Load,Data Engineering,Intermediate
+ELT,Extract Load Transform,Data Engineering,Intermediate
+DW,Data Warehouse,Data Warehousing,Intermediate
+NoSQL,Not Only SQL,Database,Intermediate
+ORM,Object Relational Mapping,Database,Intermediate
+OS,Operating System,Computer Science,Basic
+PCB2,Process Control Block,Operating Systems,Intermediate
+PID,Process Identifier,Operating Systems,Basic
+IPC,Inter Process Communication,Operating Systems,Intermediate
+FCFS,First Come First Served,Operating Systems,Basic
+SJF,Shortest Job First,Operating Systems,Basic
+RR,Round Robin,Operating Systems,Basic
+SRTF,Shortest Remaining Time First,Operating Systems,Intermediate
+RTOS,Real Time Operating System,Operating Systems,Intermediate
+VM,Virtual Machine,Operating Systems,Intermediate
+VMM,Virtual Machine Monitor,Virtualization,Advanced
+TCP,Transmission Control Protocol,Networking,Basic
+UDP,User Datagram Protocol,Networking,Basic
+IP,Internet Protocol,Networking,Basic
+IPv4,Internet Protocol Version 4,Networking,Basic
+IPv6,Internet Protocol Version 6,Networking,Intermediate
+DNS,Domain Name System,Networking,Basic
+DHCP,Dynamic Host Configuration Protocol,Networking,Intermediate
+HTTP,Hypertext Transfer Protocol,Web Technology,Basic
+HTTPS,Hypertext Transfer Protocol Secure,Web Technology,Basic
+FTP,File Transfer Protocol,Networking,Basic
+SFTP,SSH File Transfer Protocol,Networking,Intermediate
+SMTP,Simple Mail Transfer Protocol,Networking,Basic
+POP3,Post Office Protocol Version 3,Networking,Intermediate
+IMAP,Internet Message Access Protocol,Networking,Intermediate
+SSH,Secure Shell,Networking,Intermediate
+SSL,Secure Sockets Layer,Cybersecurity,Basic
+TLS,Transport Layer Security,Cybersecurity,Intermediate
+MAC,Media Access Control,Networking,Basic
+LAN,Local Area Network,Networking,Basic
+MAN,Metropolitan Area Network,Networking,Basic
+WAN,Wide Area Network,Networking,Basic
+PAN,Personal Area Network,Networking,Basic
+WLAN,Wireless Local Area Network,Networking,Intermediate
+VPN,Virtual Private Network,Networking,Intermediate
+NAT,Network Address Translation,Networking,Intermediate
+CIDR,Classless Inter Domain Routing,Networking,Intermediate
+ARP,Address Resolution Protocol,Networking,Intermediate
+ICMP,Internet Control Message Protocol,Networking,Intermediate
+OSPF,Open Shortest Path First,Networking,Advanced
+BGP,Border Gateway Protocol,Networking,Advanced
+RIP,Routing Information Protocol,Networking,Intermediate
+VLAN,Virtual Local Area Network,Networking,Intermediate
+QoS,Quality of Service,Networking,Intermediate
+CDN,Content Delivery Network,Web Technology,Intermediate
+REST,Representational State Transfer,Web Technology,Intermediate
+SOAP,Simple Object Access Protocol,Web Technology,Intermediate
+JSON,JavaScript Object Notation,Web Technology,Basic
+XML,Extensible Markup Language,Web Technology,Basic
+HTML,Hypertext Markup Language,Web Technology,Basic
+CSS,Cascading Style Sheets,Web Technology,Basic
+DOM,Document Object Model,Web Technology,Intermediate
+URL,Uniform Resource Locator,Web Technology,Basic
+URI,Uniform Resource Identifier,Web Technology,Intermediate
+CRUD,Create Read Update Delete,Web Technology,Basic
+MVC,Model View Controller,Software Architecture,Intermediate
+MVP,Model View Presenter,Software Architecture,Intermediate
+MVVM,Model View ViewModel,Software Architecture,Advanced
+SPA,Single Page Application,Web Development,Intermediate
+PWA,Progressive Web Application,Web Development,Intermediate
+SSR,Server Side Rendering,Web Development,Intermediate
+CSR,Client Side Rendering,Web Development,Intermediate
+SEO,Search Engine Optimization,Web Technology,Basic
+AI,Artificial Intelligence,Artificial Intelligence,Basic
+ML,Machine Learning,Machine Learning,Basic
+DL,Deep Learning,Deep Learning,Intermediate
+NLP,Natural Language Processing,Natural Language Processing,Intermediate
+NLU,Natural Language Understanding,Natural Language Processing,Advanced
+NLG,Natural Language Generation,Natural Language Processing,Advanced
+LLM,Large Language Model,Artificial Intelligence,Advanced
+RAG,Retrieval Augmented Generation,Artificial Intelligence,Advanced
+AGI,Artificial General Intelligence,Artificial Intelligence,Advanced
+ANN,Artificial Neural Network,Machine Learning,Intermediate
+CNN,Convolutional Neural Network,Deep Learning,Advanced
+RNN,Recurrent Neural Network,Deep Learning,Advanced
+LSTM,Long Short Term Memory,Deep Learning,Advanced
+GRU,Gated Recurrent Unit,Deep Learning,Advanced
+GAN,Generative Adversarial Network,Deep Learning,Advanced
+VAE,Variational Autoencoder,Deep Learning,Advanced
+DNN,Deep Neural Network,Deep Learning,Advanced
+KNN,K Nearest Neighbors,Machine Learning,Basic
+SVM,Support Vector Machine,Machine Learning,Intermediate
+NB,Naive Bayes,Machine Learning,Basic
+DT,Decision Tree,Machine Learning,Basic
+RF,Random Forest,Machine Learning,Intermediate
+GBM,Gradient Boosting Machine,Machine Learning,Advanced
+PCA,Principal Component Analysis,Machine Learning,Intermediate
+SVD,Singular Value Decomposition,Machine Learning,Advanced
+ICA,Independent Component Analysis,Machine Learning,Advanced
+MSE,Mean Squared Error,Machine Learning,Basic
+MAE,Mean Absolute Error,Machine Learning,Basic
+RMSE,Root Mean Squared Error,Machine Learning,Intermediate
+ROC,Receiver Operating Characteristic,Machine Learning,Intermediate
+AUC,Area Under the Curve,Machine Learning,Intermediate
+F1,F1 Score,Machine Learning,Intermediate
+TP,True Positive,Machine Learning,Basic
+TN,True Negative,Machine Learning,Basic
+FP,False Positive,Machine Learning,Basic
+FN,False Negative,Machine Learning,Basic
+CV,Cross Validation,Machine Learning,Intermediate
+SGD,Stochastic Gradient Descent,Machine Learning,Intermediate
+GD,Gradient Descent,Machine Learning,Basic
+ADAM,Adaptive Moment Estimation,Deep Learning,Advanced
+ReLU,Rectified Linear Unit,Deep Learning,Intermediate
+OCR,Optical Character Recognition,Computer Vision,Intermediate
+YOLO,You Only Look Once,Computer Vision,Advanced
+IoU,Intersection over Union,Computer Vision,Advanced
+mAP,mean Average Precision,Computer Vision,Advanced
+HOG,Histogram of Oriented Gradients,Computer Vision,Advanced
+SIFT,Scale Invariant Feature Transform,Computer Vision,Advanced
+NMS,Non Maximum Suppression,Computer Vision,Advanced
+DM,Data Mining,Data Mining,Intermediate
+KDD,Knowledge Discovery in Databases,Data Mining,Intermediate
+EDA,Exploratory Data Analysis,Data Science,Basic
+BI,Business Intelligence,Data Science,Intermediate
+BDA,Big Data Analytics,Data Science,Advanced
+HDFS,Hadoop Distributed File System,Big Data,Advanced
+HBase,Hadoop Database,Big Data,Advanced
+RDD,Resilient Distributed Dataset,Big Data,Advanced
+MQ,Message Queue,Distributed Systems,Intermediate
+RPC,Remote Procedure Call,Distributed Systems,Intermediate
+gRPC,Google Remote Procedure Call,Distributed Systems,Advanced
+SDLC,Software Development Life Cycle,Software Engineering,Basic
+SRS,Software Requirements Specification,Software Engineering,Basic
+SDS,Software Design Specification,Software Engineering,Intermediate
+UML,Unified Modeling Language,Software Engineering,Basic
+DFD,Data Flow Diagram,Software Engineering,Basic
+BPMN,Business Process Model and Notation,Software Engineering,Intermediate
+VCS,Version Control System,Software Engineering,Basic
+SCM,Software Configuration Management,Software Engineering,Intermediate
+CI,Continuous Integration,DevOps,Intermediate
+CD,Continuous Delivery,DevOps,Intermediate
+IaC,Infrastructure as Code,DevOps,Advanced
+IaaS,Infrastructure as a Service,Cloud Computing,Basic
+PaaS,Platform as a Service,Cloud Computing,Basic
+SaaS,Software as a Service,Cloud Computing,Basic
+FaaS,Function as a Service,Cloud Computing,Advanced
+IAM,Identity and Access Management,Cloud Security,Intermediate
+VPC,Virtual Private Cloud,Cloud Computing,Intermediate
+EC2,Elastic Compute Cloud,Cloud Computing,Intermediate
+S3,Simple Storage Service,Cloud Computing,Intermediate
+RDS,Relational Database Service,Cloud Computing,Intermediate
+EBS,Elastic Block Store,Cloud Computing,Intermediate
+K8s,Kubernetes,DevOps,Advanced
+SRE,Site Reliability Engineering,DevOps,Advanced
+SLA,Service Level Agreement,Software Engineering,Intermediate
+SLO,Service Level Objective,Site Reliability Engineering,Advanced
+SLI,Service Level Indicator,Site Reliability Engineering,Advanced
+MTTR,Mean Time To Repair,Reliability Engineering,Intermediate
+MTBF,Mean Time Between Failures,Reliability Engineering,Intermediate
+MFA,Multi Factor Authentication,Cybersecurity,Basic
+2FA,Two Factor Authentication,Cybersecurity,Basic
+OTP,One Time Password,Cybersecurity,Basic
+AES,Advanced Encryption Standard,Cybersecurity,Intermediate
+RSA,Rivest Shamir Adleman,Cybersecurity,Intermediate
+DES,Data Encryption Standard,Cybersecurity,Basic
+SHA,Secure Hash Algorithm,Cybersecurity,Intermediate
+HMAC,Hash Based Message Authentication Code,Cybersecurity,Advanced
+PKI,Public Key Infrastructure,Cybersecurity,Intermediate
+CA,Certificate Authority,Cybersecurity,Intermediate
+XSS,Cross Site Scripting,Cybersecurity,Intermediate
+CSRF,Cross Site Request Forgery,Cybersecurity,Intermediate
+SQLi,SQL Injection,Cybersecurity,Intermediate
+IDS,Intrusion Detection System,Cybersecurity,Intermediate
+IPS,Intrusion Prevention System,Cybersecurity,Intermediate
+SIEM,Security Information and Event Management,Cybersecurity,Advanced
+DDoS,Distributed Denial of Service,Cybersecurity,Intermediate
+DoS,Denial of Service,Cybersecurity,Basic
+CVE,Common Vulnerabilities and Exposures,Cybersecurity,Intermediate
+CWE,Common Weakness Enumeration,Cybersecurity,Advanced
+IoT,Internet of Things,Internet of Things,Basic
+IIoT,Industrial Internet of Things,Internet of Things,Intermediate
+M2M,Machine to Machine,Internet of Things,Intermediate
+RFID,Radio Frequency Identification,Internet of Things,Intermediate
+NFC,Near Field Communication,Internet of Things,Basic
+GPS,Global Positioning System,Embedded Systems,Basic
+UART,Universal Asynchronous Receiver Transmitter,Embedded Systems,Intermediate
+SPI,Serial Peripheral Interface,Embedded Systems,Intermediate
+I2C,Inter Integrated Circuit,Embedded Systems,Intermediate
+CAN,Controller Area Network,Embedded Systems,Intermediate
+MCU,Microcontroller Unit,Embedded Systems,Basic
+MPU,Microprocessor Unit,Embedded Systems,Intermediate
+GSM,Global System for Mobile Communications,Telecommunication,Basic
+LTE,Long Term Evolution,Telecommunication,Intermediate
+5G,Fifth Generation Mobile Network,Telecommunication,Intermediate
+6G,Sixth Generation Mobile Network,Telecommunication,Advanced
+OFDM,Orthogonal Frequency Division Multiplexing,Telecommunication,Advanced
+MIMO,Multiple Input Multiple Output,Telecommunication,Advanced
+BER,Bit Error Rate,Communication Engineering,Intermediate
+SNR,Signal to Noise Ratio,Communication Engineering,Intermediate
+AM,Amplitude Modulation,Communication Engineering,Basic
+FM,Frequency Modulation,Communication Engineering,Basic
+PM,Phase Modulation,Communication Engineering,Intermediate
+PCM,Pulse Code Modulation,Communication Engineering,Intermediate
+QAM,Quadrature Amplitude Modulation,Communication Engineering,Advanced
+ASK,Amplitude Shift Keying,Communication Engineering,Intermediate
+FSK,Frequency Shift Keying,Communication Engineering,Intermediate
+PSK,Phase Shift Keying,Communication Engineering,Intermediate
+CAD,Computer Aided Design,Mechanical Engineering,Basic
+CAM,Computer Aided Manufacturing,Mechanical Engineering,Intermediate
+CAE,Computer Aided Engineering,Mechanical Engineering,Intermediate
+CNC,Computer Numerical Control,Mechanical Engineering,Intermediate
+FEM,Finite Element Method,Mechanical Engineering,Advanced
+FEA,Finite Element Analysis,Mechanical Engineering,Advanced
+CFD,Computational Fluid Dynamics,Mechanical Engineering,Advanced
+CFC,Carbon Fiber Composite,Materials Engineering,Intermediate
+CFRP,Carbon Fiber Reinforced Polymer,Materials Engineering,Advanced
+FRP,Fiber Reinforced Polymer,Materials Engineering,Intermediate
+NDT,Non Destructive Testing,Mechanical Engineering,Intermediate
+HVAC,Heating Ventilation and Air Conditioning,Mechanical Engineering,Intermediate
+ICE,Internal Combustion Engine,Mechanical Engineering,Basic
+BHP,Brake Horsepower,Mechanical Engineering,Intermediate
+RPM,Revolutions Per Minute,Mechanical Engineering,Basic
+BIM,Building Information Modeling,Civil Engineering,Intermediate
+RCC,Reinforced Cement Concrete,Civil Engineering,Basic
+PCC,Plain Cement Concrete,Civil Engineering,Basic
+BOQ,Bill of Quantities,Civil Engineering,Intermediate
+DPC,Damp Proof Course,Civil Engineering,Basic
+GFRP,Glass Fiber Reinforced Polymer,Civil Engineering,Advanced
+FOS,Factor of Safety,Civil Engineering,Basic
+WTP,Water Treatment Plant,Environmental Engineering,Intermediate
+STP,Sewage Treatment Plant,Environmental Engineering,Intermediate
+BOD,Biochemical Oxygen Demand,Environmental Engineering,Intermediate
+COD,Chemical Oxygen Demand,Environmental Engineering,Intermediate
+TDS,Total Dissolved Solids,Environmental Engineering,Basic
+TSS,Total Suspended Solids,Environmental Engineering,Basic
+DO,Dissolved Oxygen,Environmental Engineering,Basic
+GIS,Geographic Information System,Civil Engineering,Intermediate
+GNSS,Global Navigation Satellite System,Surveying Engineering,Advanced
+CMOS,Complementary Metal Oxide Semiconductor,Electronics,Intermediate
+TTL,Transistor Transistor Logic,Digital Electronics,Intermediate
+HDL,Hardware Description Language,Digital Electronics,Advanced
+VHDL,VHSIC Hardware Description Language,Digital Electronics,Advanced
+PLC,Programmable Logic Controller,Control Systems,Intermediate
+SCADA,Supervisory Control and Data Acquisition,Control Systems,Advanced
+HMI,Human Machine Interface,Control Systems,Intermediate
+LQR,Linear Quadratic Regulator,Control Systems,Advanced
+MPC,Model Predictive Control,Control Systems,Advanced
+BIBO,Bounded Input Bounded Output,Control Systems,Advanced
+LTI,Linear Time Invariant,Control Systems,Intermediate
+MATLAB,Matrix Laboratory,Engineering Software,Intermediate
+BOM,Bill of Materials,Manufacturing Engineering,Basic
+FMEA,Failure Mode and Effects Analysis,Quality Engineering,Advanced
+QC,Quality Control,Quality Engineering,Basic
+QA,Quality Assurance,Quality Engineering,Basic
+SPC,Statistical Process Control,Quality Engineering,Intermediate
+TQM,Total Quality Management,Quality Engineering,Intermediate
+ISO,International Organization for Standardization,Engineering Standards,Basic
+ASME,American Society of Mechanical Engineers,Engineering Standards,Intermediate
+IEEE,Institute of Electrical and Electronics Engineers,Engineering Standards,Basic
+ASTM,American Society for Testing and Materials,Engineering Standards,Intermediate
+BIS,Bureau of Indian Standards,Engineering Standards,Basic
+CIM,Computer Integrated Manufacturing,Manufacturing Engineering,Advanced
+FMS,Flexible Manufacturing System,Manufacturing Engineering,Advanced
+ERP,Enterprise Resource Planning,Industrial Engineering,Intermediate
+MRP,Material Requirements Planning,Industrial Engineering,Intermediate
+EOQ,Economic Order Quantity,Industrial Engineering,Intermediate
+PERT,Program Evaluation and Review Technique,Project Management,Intermediate
+CPM,Critical Path Method,Project Management,Intermediate
+WBS,Work Breakdown Structure,Project Management,Basic
+UAV,Unmanned Aerial Vehicle,Aerospace Engineering,Intermediate
+UAS,Unmanned Aircraft System,Aerospace Engineering,Intermediate
+GNC,Guidance Navigation and Control,Aerospace Engineering,Advanced
+ESA,European Space Agency,Aerospace Engineering,Basic
+ISRO,Indian Space Research Organisation,Aerospace Engineering,Basic
