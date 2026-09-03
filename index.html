@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Acronym Detection & Expansion</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="background">
+
+        <div class="container">
+
+
+            <!-- HEADER -->
+
+            <div class="header">
+
+                <h1>Acronym Detection & Expansion</h1>
+
+                <p>
+                    Enter a technology or engineering acronym
+                    to find its full form.
+                </p>
+
+            </div>
+
+
+            <!-- INPUT FORM -->
+
+            <div class="search-box">
+
+                <form method="POST">
+
+                    <label for="acronym">
+                        Enter Acronym
+                    </label>
+
+                    <div class="input-row">
+
+                        <input
+                            type="text"
+                            id="acronym"
+                            name="acronym"
+                            placeholder="Example: CPU, NLP, CFC, CFD"
+                            value="{{ user_input }}"
+                            required
+                        >
+
+                        <button type="submit">
+                            Find Full Form
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <!-- RESULTS -->
+
+            {% if results %}
+
+                <div class="results-section">
+
+                    <h2>Results</h2>
+
+
+                    {% for item in results %}
+
+                        <div class="result-card">
+
+                            <div class="acronym-title">
+
+                                {{ item.acronym }}
+
+                            </div>
+
+
+                            <div class="result-row">
+
+                                <span class="label">
+                                    Full Form
+                                </span>
+
+                                <span class="value">
+
+                                    {{ item.full_form }}
+
+                                </span>
+
+                            </div>
+
+
+                            <div class="result-row">
+
+                                <span class="label">
+                                    Category
+                                </span>
+
+                                <span class="value">
+
+                                    {{ item.category }}
+
+                                </span>
+
+                            </div>
+
+
+                            <div class="result-row">
+
+                                <span class="label">
+                                    Difficulty Level
+                                </span>
+
+                                <span class="level-badge">
+
+                                    {{ item.level }}
+
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+            {% endif %}
+
+
+            <!-- ERROR MESSAGE -->
+
+            {% if message %}
+
+                <div class="message">
+
+                    {{ message }}
+
+                </div>
+
+            {% endif %}
+
+
+            <!-- FOOTER -->
+
+            <div class="footer">
+
+                NLP Project • Acronym Detection and Expansion
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
