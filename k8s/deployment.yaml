@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: acronym-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: acronym-app
+  template:
+    metadata:
+      labels:
+        app: acronym-app
+    spec:
+      containers:
+        - name: acronym-app
+          image: IMAGE_PLACEHOLDER
+          ports:
+            - containerPort: 5000
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: acronym-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: acronym-app
+  ports:
+    - port: 80
+      targetPort: 5000
